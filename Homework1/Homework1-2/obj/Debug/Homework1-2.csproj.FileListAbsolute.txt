@@ -1,0 +1,10 @@
+C:\Users\24356\Desktop\Software Constuction\SC Homework1 2019302120118 qh\Homework1\Homework1-2\bin\Debug\Homework1-2.exe.config
+C:\Users\24356\Desktop\Software Constuction\SC Homework1 2019302120118 qh\Homework1\Homework1-2\bin\Debug\Homework1-2.exe
+C:\Users\24356\Desktop\Software Constuction\SC Homework1 2019302120118 qh\Homework1\Homework1-2\bin\Debug\Homework1-2.pdb
+C:\Users\24356\Desktop\Software Constuction\SC Homework1 2019302120118 qh\Homework1\Homework1-2\obj\Debug\Homework1-2.csprojAssemblyReference.cache
+C:\Users\24356\Desktop\Software Constuction\SC Homework1 2019302120118 qh\Homework1\Homework1-2\obj\Debug\Homework1_2.Form1.resources
+C:\Users\24356\Desktop\Software Constuction\SC Homework1 2019302120118 qh\Homework1\Homework1-2\obj\Debug\Homework1_2.Properties.Resources.resources
+C:\Users\24356\Desktop\Software Constuction\SC Homework1 2019302120118 qh\Homework1\Homework1-2\obj\Debug\Homework1-2.csproj.GenerateResource.cache
+C:\Users\24356\Desktop\Software Constuction\SC Homework1 2019302120118 qh\Homework1\Homework1-2\obj\Debug\Homework1-2.csproj.CoreCompileInputs.cache
+C:\Users\24356\Desktop\Software Constuction\SC Homework1 2019302120118 qh\Homework1\Homework1-2\obj\Debug\Homework1-2.exe
+C:\Users\24356\Desktop\Software Constuction\SC Homework1 2019302120118 qh\Homework1\Homework1-2\obj\Debug\Homework1-2.pdb
