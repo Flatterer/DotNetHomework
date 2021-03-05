@@ -1,0 +1,13 @@
+E:\Software Construction\2\Homework2\Homework2-4\bin\Debug\netcoreapp3.1\Homework2-4.exe
+E:\Software Construction\2\Homework2\Homework2-4\bin\Debug\netcoreapp3.1\Homework2-4.deps.json
+E:\Software Construction\2\Homework2\Homework2-4\bin\Debug\netcoreapp3.1\Homework2-4.runtimeconfig.json
+E:\Software Construction\2\Homework2\Homework2-4\bin\Debug\netcoreapp3.1\Homework2-4.runtimeconfig.dev.json
+E:\Software Construction\2\Homework2\Homework2-4\bin\Debug\netcoreapp3.1\Homework2-4.dll
+E:\Software Construction\2\Homework2\Homework2-4\bin\Debug\netcoreapp3.1\Homework2-4.pdb
+E:\Software Construction\2\Homework2\Homework2-4\obj\Debug\netcoreapp3.1\Homework2-4.csprojAssemblyReference.cache
+E:\Software Construction\2\Homework2\Homework2-4\obj\Debug\netcoreapp3.1\Homework2-4.AssemblyInfoInputs.cache
+E:\Software Construction\2\Homework2\Homework2-4\obj\Debug\netcoreapp3.1\Homework2-4.AssemblyInfo.cs
+E:\Software Construction\2\Homework2\Homework2-4\obj\Debug\netcoreapp3.1\Homework2-4.csproj.CoreCompileInputs.cache
+E:\Software Construction\2\Homework2\Homework2-4\obj\Debug\netcoreapp3.1\Homework2-4.dll
+E:\Software Construction\2\Homework2\Homework2-4\obj\Debug\netcoreapp3.1\Homework2-4.pdb
+E:\Software Construction\2\Homework2\Homework2-4\obj\Debug\netcoreapp3.1\Homework2-4.genruntimeconfig.cache
