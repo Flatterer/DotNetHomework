@@ -30,8 +30,7 @@ namespace Homework3_2
             }
             else
             {
-                Console.WriteLine("Null");
-                return null;
+                throw new Exception("Error");
             }
 
         }
