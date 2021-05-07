@@ -35,5 +35,9 @@ namespace Homework5_1
         {
             return $"{h}:{m}:{s}";
         }
+        public static void Main()
+        {
+            Console.WriteLine("");
+        }
     }
 }

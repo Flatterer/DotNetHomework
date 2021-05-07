@@ -1,0 +1,12 @@
+E:\Software Construction\H8\H8\bin\Debug\H8.exe.config
+E:\Software Construction\H8\H8\bin\Debug\H8.exe
+E:\Software Construction\H8\H8\bin\Debug\H8.pdb
+E:\Software Construction\H8\H8\obj\Debug\H8.csprojAssemblyReference.cache
+E:\Software Construction\H8\H8\obj\Debug\H8.Form1.resources
+E:\Software Construction\H8\H8\obj\Debug\H8.Properties.Resources.resources
+E:\Software Construction\H8\H8\obj\Debug\H8.csproj.GenerateResource.cache
+E:\Software Construction\H8\H8\obj\Debug\H8.csproj.CoreCompileInputs.cache
+E:\Software Construction\H8\H8\obj\Debug\H8.exe
+E:\Software Construction\H8\H8\obj\Debug\H8.pdb
+E:\Software Construction\H8\H8\obj\Debug\H8.FormEdit.resources
+E:\Software Construction\H8\H8\obj\Debug\H8.FormDetail.resources

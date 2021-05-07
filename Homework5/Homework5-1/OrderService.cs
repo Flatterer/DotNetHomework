@@ -53,7 +53,7 @@ namespace Homework5_1
                 orders.Sort((x, y) => x.orderID.CompareTo(y.orderID));
                 Console.WriteLine(o.ToString() + "Deleted");
         }
-        public void ModifyTime(Order o, Time t)
+        public void ModifyTime(Order o, DateTime t)
         {
             try
             {

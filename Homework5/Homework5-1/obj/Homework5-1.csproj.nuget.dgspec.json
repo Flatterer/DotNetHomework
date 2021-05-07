@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Software Construction\\Homework5\\Homework5-1\\Homework5-1.csproj": {}
+    "E:\\DotNetHomework\\Homework1\\Homework5\\Homework5-1\\Homework5-1.csproj": {}
   },
   "projects": {
-    "E:\\Software Construction\\Homework5\\Homework5-1\\Homework5-1.csproj": {
+    "E:\\DotNetHomework\\Homework1\\Homework5\\Homework5-1\\Homework5-1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Software Construction\\Homework5\\Homework5-1\\Homework5-1.csproj",
+        "projectUniqueName": "E:\\DotNetHomework\\Homework1\\Homework5\\Homework5-1\\Homework5-1.csproj",
         "projectName": "Homework5-1",
-        "projectPath": "E:\\Software Construction\\Homework5\\Homework5-1\\Homework5-1.csproj",
+        "projectPath": "E:\\DotNetHomework\\Homework1\\Homework5\\Homework5-1\\Homework5-1.csproj",
         "packagesPath": "C:\\Users\\24356\\.nuget\\packages\\",
-        "outputPath": "E:\\Software Construction\\Homework5\\Homework5-1\\obj\\",
+        "outputPath": "E:\\DotNetHomework\\Homework1\\Homework5\\Homework5-1\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"

@@ -14,7 +14,7 @@ namespace Homework5_1
         {
             get; set;
         }
-        public Time time
+        public DateTime time
         {
             get; set;
         }
@@ -27,11 +27,11 @@ namespace Homework5_1
             get; set;
         }
         public List<OrderDetails> orderDetails;
-        public Order(int id, Customer customer, Time time, string add, List<OrderDetails> od)
+        public Order(int id, Customer customer, string add, List<OrderDetails> od)
         {
             orderID = id;
             this.customer = customer;
-            this.time = time;
+            this.time = DateTime.Now;
             address = add;
             this.orderDetails = od;
             price = 0;
