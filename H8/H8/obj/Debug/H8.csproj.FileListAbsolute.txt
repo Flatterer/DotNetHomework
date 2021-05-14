@@ -10,3 +10,15 @@ E:\Software Construction\H8\H8\obj\Debug\H8.exe
 E:\Software Construction\H8\H8\obj\Debug\H8.pdb
 E:\Software Construction\H8\H8\obj\Debug\H8.FormEdit.resources
 E:\Software Construction\H8\H8\obj\Debug\H8.FormDetail.resources
+E:\DotNetHomework\Homework1\H8\H8\bin\Debug\H8.exe.config
+E:\DotNetHomework\Homework1\H8\H8\bin\Debug\H8.exe
+E:\DotNetHomework\Homework1\H8\H8\bin\Debug\H8.pdb
+E:\DotNetHomework\Homework1\H8\H8\obj\Debug\H8.csprojAssemblyReference.cache
+E:\DotNetHomework\Homework1\H8\H8\obj\Debug\H8.Form1.resources
+E:\DotNetHomework\Homework1\H8\H8\obj\Debug\H8.FormDetail.resources
+E:\DotNetHomework\Homework1\H8\H8\obj\Debug\H8.FormEdit.resources
+E:\DotNetHomework\Homework1\H8\H8\obj\Debug\H8.Properties.Resources.resources
+E:\DotNetHomework\Homework1\H8\H8\obj\Debug\H8.csproj.GenerateResource.cache
+E:\DotNetHomework\Homework1\H8\H8\obj\Debug\H8.csproj.CoreCompileInputs.cache
+E:\DotNetHomework\Homework1\H8\H8\obj\Debug\H8.exe
+E:\DotNetHomework\Homework1\H8\H8\obj\Debug\H8.pdb

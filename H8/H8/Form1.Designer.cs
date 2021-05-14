@@ -40,32 +40,27 @@ namespace H8
             this.btnOut = new System.Windows.Forms.Button();
             this.splitContainer1 = new System.Windows.Forms.SplitContainer();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.dataGridView2 = new System.Windows.Forms.DataGridView();
-            this.saveFileDialog1 = new System.Windows.Forms.SaveFileDialog();
-            this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
-            this.btnAddDetail = new System.Windows.Forms.Button();
-            this.btnRemoveDetail = new System.Windows.Forms.Button();
-            this.btnChangeDetail = new System.Windows.Forms.Button();
             this.orderIDDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.customerDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.customerNameDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.timeDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.totalPriceDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.bdsOrder = new System.Windows.Forms.BindingSource(this.components);
-            this.indexDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.goodsItemDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.quantityDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.unitPriceDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.goodsNameDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridView2 = new System.Windows.Forms.DataGridView();
             this.totalPriceDataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.bdsOrderDetail = new System.Windows.Forms.BindingSource(this.components);
+            this.saveFileDialog1 = new System.Windows.Forms.SaveFileDialog();
+            this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
+            this.btnAddDetail = new System.Windows.Forms.Button();
+            this.btnRemoveDetail = new System.Windows.Forms.Button();
+            this.btnChangeDetail = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).BeginInit();
             this.splitContainer1.Panel1.SuspendLayout();
             this.splitContainer1.Panel2.SuspendLayout();
             this.splitContainer1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.bdsOrder)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.bdsOrderDetail)).BeginInit();
             this.SuspendLayout();
             // 
@@ -184,57 +179,6 @@ namespace H8
             this.dataGridView1.TabIndex = 0;
             this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
             // 
-            // dataGridView2
-            // 
-            this.dataGridView2.AutoGenerateColumns = false;
-            this.dataGridView2.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView2.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.indexDataGridViewTextBoxColumn,
-            this.goodsItemDataGridViewTextBoxColumn,
-            this.quantityDataGridViewTextBoxColumn,
-            this.unitPriceDataGridViewTextBoxColumn,
-            this.goodsNameDataGridViewTextBoxColumn,
-            this.totalPriceDataGridViewTextBoxColumn1});
-            this.dataGridView2.DataSource = this.bdsOrderDetail;
-            this.dataGridView2.Location = new System.Drawing.Point(1, 3);
-            this.dataGridView2.Name = "dataGridView2";
-            this.dataGridView2.Size = new System.Drawing.Size(660, 410);
-            this.dataGridView2.TabIndex = 0;
-            // 
-            // openFileDialog1
-            // 
-            this.openFileDialog1.FileName = "openFileDialog1";
-            // 
-            // btnAddDetail
-            // 
-            this.btnAddDetail.Location = new System.Drawing.Point(590, 48);
-            this.btnAddDetail.Name = "btnAddDetail";
-            this.btnAddDetail.Size = new System.Drawing.Size(75, 23);
-            this.btnAddDetail.TabIndex = 9;
-            this.btnAddDetail.Text = "AddDetail";
-            this.btnAddDetail.UseVisualStyleBackColor = true;
-            this.btnAddDetail.Click += new System.EventHandler(this.btnAddDetail_Click);
-            // 
-            // btnRemoveDetail
-            // 
-            this.btnRemoveDetail.Location = new System.Drawing.Point(705, 48);
-            this.btnRemoveDetail.Name = "btnRemoveDetail";
-            this.btnRemoveDetail.Size = new System.Drawing.Size(75, 23);
-            this.btnRemoveDetail.TabIndex = 10;
-            this.btnRemoveDetail.Text = "RemoveDetail";
-            this.btnRemoveDetail.UseVisualStyleBackColor = true;
-            this.btnRemoveDetail.Click += new System.EventHandler(this.btnRemoveDetail_Click);
-            // 
-            // btnChangeDetail
-            // 
-            this.btnChangeDetail.Location = new System.Drawing.Point(829, 47);
-            this.btnChangeDetail.Name = "btnChangeDetail";
-            this.btnChangeDetail.Size = new System.Drawing.Size(75, 23);
-            this.btnChangeDetail.TabIndex = 11;
-            this.btnChangeDetail.Text = "ChangeDetail";
-            this.btnChangeDetail.UseVisualStyleBackColor = true;
-            this.btnChangeDetail.Click += new System.EventHandler(this.btnChangeDetail_Click);
-            // 
             // orderIDDataGridViewTextBoxColumn
             // 
             this.orderIDDataGridViewTextBoxColumn.DataPropertyName = "OrderID";
@@ -271,37 +215,17 @@ namespace H8
             // 
             this.bdsOrder.DataSource = typeof(H8.Order);
             // 
-            // indexDataGridViewTextBoxColumn
+            // dataGridView2
             // 
-            this.indexDataGridViewTextBoxColumn.DataPropertyName = "Index";
-            this.indexDataGridViewTextBoxColumn.HeaderText = "Index";
-            this.indexDataGridViewTextBoxColumn.Name = "indexDataGridViewTextBoxColumn";
-            // 
-            // goodsItemDataGridViewTextBoxColumn
-            // 
-            this.goodsItemDataGridViewTextBoxColumn.DataPropertyName = "GoodsItem";
-            this.goodsItemDataGridViewTextBoxColumn.HeaderText = "GoodsItem";
-            this.goodsItemDataGridViewTextBoxColumn.Name = "goodsItemDataGridViewTextBoxColumn";
-            // 
-            // quantityDataGridViewTextBoxColumn
-            // 
-            this.quantityDataGridViewTextBoxColumn.DataPropertyName = "Quantity";
-            this.quantityDataGridViewTextBoxColumn.HeaderText = "Quantity";
-            this.quantityDataGridViewTextBoxColumn.Name = "quantityDataGridViewTextBoxColumn";
-            // 
-            // unitPriceDataGridViewTextBoxColumn
-            // 
-            this.unitPriceDataGridViewTextBoxColumn.DataPropertyName = "UnitPrice";
-            this.unitPriceDataGridViewTextBoxColumn.HeaderText = "UnitPrice";
-            this.unitPriceDataGridViewTextBoxColumn.Name = "unitPriceDataGridViewTextBoxColumn";
-            this.unitPriceDataGridViewTextBoxColumn.ReadOnly = true;
-            // 
-            // goodsNameDataGridViewTextBoxColumn
-            // 
-            this.goodsNameDataGridViewTextBoxColumn.DataPropertyName = "GoodsName";
-            this.goodsNameDataGridViewTextBoxColumn.HeaderText = "GoodsName";
-            this.goodsNameDataGridViewTextBoxColumn.Name = "goodsNameDataGridViewTextBoxColumn";
-            this.goodsNameDataGridViewTextBoxColumn.ReadOnly = true;
+            this.dataGridView2.AutoGenerateColumns = false;
+            this.dataGridView2.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView2.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.totalPriceDataGridViewTextBoxColumn1});
+            this.dataGridView2.DataSource = this.bdsOrderDetail;
+            this.dataGridView2.Location = new System.Drawing.Point(1, 3);
+            this.dataGridView2.Name = "dataGridView2";
+            this.dataGridView2.Size = new System.Drawing.Size(660, 410);
+            this.dataGridView2.TabIndex = 0;
             // 
             // totalPriceDataGridViewTextBoxColumn1
             // 
@@ -312,7 +236,42 @@ namespace H8
             // 
             // bdsOrderDetail
             // 
-            this.bdsOrderDetail.DataSource = typeof(H8.OrderDetail);
+            this.bdsOrderDetail.DataMember = "OrderDetails";
+            this.bdsOrderDetail.DataSource = this.bdsOrder;
+            // 
+            // openFileDialog1
+            // 
+            this.openFileDialog1.FileName = "openFileDialog1";
+            // 
+            // btnAddDetail
+            // 
+            this.btnAddDetail.Location = new System.Drawing.Point(590, 48);
+            this.btnAddDetail.Name = "btnAddDetail";
+            this.btnAddDetail.Size = new System.Drawing.Size(75, 23);
+            this.btnAddDetail.TabIndex = 9;
+            this.btnAddDetail.Text = "AddDetail";
+            this.btnAddDetail.UseVisualStyleBackColor = true;
+            this.btnAddDetail.Click += new System.EventHandler(this.btnAddDetail_Click);
+            // 
+            // btnRemoveDetail
+            // 
+            this.btnRemoveDetail.Location = new System.Drawing.Point(705, 48);
+            this.btnRemoveDetail.Name = "btnRemoveDetail";
+            this.btnRemoveDetail.Size = new System.Drawing.Size(75, 23);
+            this.btnRemoveDetail.TabIndex = 10;
+            this.btnRemoveDetail.Text = "RemoveDetail";
+            this.btnRemoveDetail.UseVisualStyleBackColor = true;
+            this.btnRemoveDetail.Click += new System.EventHandler(this.btnRemoveDetail_Click);
+            // 
+            // btnChangeDetail
+            // 
+            this.btnChangeDetail.Location = new System.Drawing.Point(829, 47);
+            this.btnChangeDetail.Name = "btnChangeDetail";
+            this.btnChangeDetail.Size = new System.Drawing.Size(75, 23);
+            this.btnChangeDetail.TabIndex = 11;
+            this.btnChangeDetail.Text = "ChangeDetail";
+            this.btnChangeDetail.UseVisualStyleBackColor = true;
+            this.btnChangeDetail.Click += new System.EventHandler(this.btnChangeDetail_Click);
             // 
             // Form1
             // 
@@ -339,8 +298,8 @@ namespace H8
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).EndInit();
             this.splitContainer1.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.bdsOrder)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.bdsOrderDetail)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -367,11 +326,6 @@ namespace H8
         private System.Windows.Forms.DataGridViewTextBoxColumn timeDataGridViewTextBoxColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn totalPriceDataGridViewTextBoxColumn;
         private System.Windows.Forms.DataGridView dataGridView2;
-        private System.Windows.Forms.DataGridViewTextBoxColumn indexDataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn goodsItemDataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn quantityDataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn unitPriceDataGridViewTextBoxColumn;
-        private System.Windows.Forms.DataGridViewTextBoxColumn goodsNameDataGridViewTextBoxColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn totalPriceDataGridViewTextBoxColumn1;
         private System.Windows.Forms.SaveFileDialog saveFileDialog1;
         private System.Windows.Forms.OpenFileDialog openFileDialog1;

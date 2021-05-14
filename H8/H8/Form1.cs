@@ -14,7 +14,7 @@ namespace H8
     {
         OrderService orderService;
         BindingSource bds = new BindingSource();
-        private string Keyword { get; set; }
+        public string Keyword { get; set; }
         public Form1()
         {
             InitializeComponent();
@@ -33,6 +33,7 @@ namespace H8
 
             }*/
             cbxSelect.SelectedIndex = 0;
+            tbxEnter.DataBindings.Add("Text", this, "Keyword");
         }
 
         private void GetText()//== DataBindings                       Normal DataBingdings Error
@@ -42,13 +43,14 @@ namespace H8
 
         private void SelectOrder()
         {
-            Order order = bdsOrder.Current as Order;
+           /*Order order = bdsOrder.Current as Order;
             if (order == null)
             {
                 MessageBox.Show("Plz Select an order");
                 return;
             }
             bdsOrderDetail.DataSource = order.DetailList();
+           */
         }
 
         private void QueryAll()
@@ -65,7 +67,7 @@ namespace H8
 
         private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
-            SelectOrder();
+            /*SelectOrder();*/
         }
 
         private void btnSearch_Click(object sender, EventArgs e)
@@ -78,7 +80,8 @@ namespace H8
                     break;
 
                 case 1://id
-                    GetText();
+                    //GetText();
+                    MessageBox.Show(Keyword);
                     int.TryParse(Keyword, out int resultid);
                     Order o = orderService.GetOrder(resultid);
                     List<Order> orderList = new List<Order>();
